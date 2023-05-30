@@ -1,0 +1,272 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+div.contenedor-menu {
+    width: 1170px;
+    height: 1600px;
+    border: 1px solid red;
+    margin: 0 auto;
+    background-image: url("../img/page-bg-1.jpg");
+}
+
+div.logo {
+    background-color: rgb(241, 171, 19);
+    width: 470px;
+    height: 55px;
+    position: absolute;
+}
+
+div.menu {
+    background-color: rgb(241, 171, 19);
+    height: 55px;
+    width: 700px;
+    float: right;
+    justify-content: center;
+    display: flex;
+}
+
+div.menu ul {
+    list-style: none;
+}
+
+div.menu>ul>li {
+    float: left;
+}
+
+div.menu>ul>li>a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+div.menu>ul>li>a:hover {
+    background-color: red;
+
+}
+
+div.menu ul ul {
+    position: absolute;
+    display: none;
+    border: 1px solid green;
+    text-align: center;
+    background-color: rgb(139, 170, 170);
+    z-index: 100;
+
+}
+
+div.menu ul ul li {
+    display: block;
+    border: 1px solid red;
+
+}
+
+div.menu ul ul li a {
+    border: 1px solid red;
+    padding: 20px 40px;
+    display: block;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+div.menu li:hover ul {
+    display: block;
+}
+
+p {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+* {
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+div#contenedor {
+    width: 1170px;
+    height: 890px;
+    margin: 0px auto;
+
+}
+
+div.primera {
+    width: 700px;
+    height: 888px;
+    position: absolute;
+
+
+
+}
+
+div.segunda {
+    width: 450px;
+    height: 400px;
+    float: right;
+
+
+}
+
+p {
+    clear: both;
+}
+
+div.tercera {
+    width: 450px;
+    height: 480px;
+    float: right;
+
+
+}
+
+p.email {
+    color: red;
+}
