@@ -19,7 +19,7 @@ $sql_categorias = $conexion->query("SELECT * FROM categorias");
     </div>
     <div class="menu">
         <ul>
-            <li><a href="index.php">INICIO</a></li>
+            <li><a href="index.php">INICIOS</a></li>
             <li><a href="blog.php">ENTRETENIMIENTO</a>
                 <ul>
                     <?php
