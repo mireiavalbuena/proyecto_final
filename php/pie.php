@@ -6,7 +6,7 @@
         <br>
         <p><br>123, Manises</p>
         <br>
-        <p>Valencia, Manises trabajo</p>
+        <p>Valencia, Manises trabajo proyecto final</p>
     </div>
     <div class=" mapa">
         <iframe
