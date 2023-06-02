@@ -139,7 +139,7 @@ table {
 div.contenedor-menu {
     width: 1170px;
     height: 1600px;
-    border: 1px solid red;
+    
     margin: 0 auto;
     background-image: url("../img/page-bg-1.jpg");
 }
